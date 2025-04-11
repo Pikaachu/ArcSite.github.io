@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta
+      name="viewport"
+      content="width=device-width,initial-scale=1"
+      id="uaId"
+    />
+<meta charset="utf-8" />
+<meta name="keywords" content="YomiArc" />
+<meta
+      name="description"
+      content="このページは読売理工医療福祉専門学校WEB制作実習で使用するサンプルサイトのトップページです。"
+    />
+<title>YomiArc</title>
+<link href="../style/style.css" rel="stylesheet" type="text/css" />
+<link href="../style/news.css" rel="stylesheet" type="text/css" />
+
+<!-- link for jquery --> 
+
+<!--slick-->
+<link
+      href="../lightbox/css/lightbox.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+<link href="../slick/slick.css" rel="stylesheet" type="text/css" />
+<link href="../slick/slick-theme.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery-3.7.1.js"></script> 
+<script type="text/javascript" src="../lightbox/js/lightbox.js"></script> 
+<script type="text/javascript" src="../slick/slick.min.js"></script> 
+<script type="text/javascript" src="../js/scriptjs.js"></script> 
+<!--slick-->
+</head>
+
+<body>
+<div id="container"> 
+  <!-- header -->
+  <header>
+    <div id="mainImg">
+      <h1><a href="../index.html">読売工務店株式会社</a></h1>
+      
+      <!-- header navi -->
+      <input type="checkbox" id="menuCheck" />
+      <label for="menuCheck" class="spMenuBtn scrolled"
+            ><span></span
+          ></label>
+      <div id="hdrMenuContent">
+        <nav>
+          <ul id="hdrMainNav">
+            <li><a href="../site_summary/index.html">会社概要</a></li>
+            <li><a href="../NewHouse/index.html">新築について</a></li>
+            <li><a href="../reform/index.html"> リフォームについて</a></li>
+            <li><a href="index.html">施工事例</a></li>
+            <li><a href="../contact/index.html">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- Hero Section -->
+  <section class="kuwashi w-container">
+    <div class="kuwashi-container">
+      <h3 class="kuwashi-title">A邸</h3>
+      <br>
+      <span>2019.07.12</span> </div>
+    <div class="house1"> 
+      <!-- Big Image --> 
+      <img id="bigImage" class="big-image" src="../images/houseList/house1/01.jpg" alt="Big Image" onclick="openModal()"> 
+      
+      <!-- Thumbnails -->
+      <div class="thumbnail-row"> <img onclick="swapImage('../images/houseList/house1/01.jpg')" src="../images/houseList/house1/01.jpg" alt="Thumbnail 1"> <img onclick="swapImage('../images/houseList/house1/02.jpg')" src="../images/houseList/house1/02.jpg" alt="Thumbnail 2"> <img onclick="swapImage('../images/houseList/house1/03.jpg')" src="../images/houseList/house1/03.jpg" alt="Thumbnail 3"> <img onclick="swapImage('../images/houseList/house1/05.jpg')" src="../images/houseList/house1/05.jpg" alt="Thumbnail 4"> <img onclick="swapImage('../images/houseList/house1/08.jpg')" src="../images/houseList/house1/08.jpg" alt="Thumbnail 5"> </div>
+    </div>
+    
+    <!-- Modal -->
+    <div id="imageModal" class="modal"> <img src="../images/houseList/house1/01.jpg" alt="Enlarged Image"> </div>
+    <div class="house1-description"> &nbsp;&nbsp;&nbsp;施主家族のコラージュからは農業、多世代の触れ合い、コミュニケーション、などのキーワードが抽出されました。また、配置計画として、母屋のO邸と将来の４戸の住宅エリアと農地の、3つエリアを繋ぐことが求められました。 <br>
+      <br>
+      母屋の建物形状をZ型にしてその中心にサンルームを配し、そこを結束点に位置付けることにより広い意味での全体配置と、O邸自体のまとまりを併せて作るデザインとなりました。Zの中心軸にはサンルームとリビングとご夫婦の寝室を配置し、南側端部におじい様おばあ様のエリアを配し、東側にはゲストルームを配置するという空間構成としました。<br>
+      <br>
+      サンルームには井戸水を循環させる水冷システムを用いています。井戸水は冬季には気温より暖かいので夏と冬の両方に寄与するシステムです。 </div>
+    <div class="table-contain">
+      <table>
+        <tbody class="art-table">
+          <tr>
+            <th>所在地</th>
+            <td>東京都杉並区</td>
+          </tr>
+          <tr>
+            <th>主要用途</th>
+            <td>住宅</td>
+          </tr>
+          <tr>
+            <th>敷地面積</th>
+            <td>860.00平方メートル</td>
+          </tr>
+          <tr>
+            <th>延床面積</th>
+            <td>156.62平方メートル</td>
+          </tr>
+          <tr>
+            <th>構造</th>
+            <td>木造平屋建て</td>
+          </tr>
+          <tr>
+            <th>竣工</th>
+            <td>2019年7月</td>
+          </tr>
+          <tr>
+            <th>施工者</th>
+            <td>読売工務店（株）</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="newhouse-link"> <a href="../houseList/index.html">&#62; 施工事例一覧へ戻る</a> </div>
+  </section>
+</div>
+
+<!---------------------------News-------------------------------> 
+
+<!-- News Section --> 
+<!---------------------------footer------------------------------->
+<div class="w-container">
+  <footer>
+    <div class="footer-container"> 
+      <!-- Left Section -->
+      <div class="footer-left">
+        <h1 class="company-name">読売工務店株式会社</h1>
+        <p class="address"> 〒108-0014 東京都港区芝5-26-16 [ <a href="../site_summary/index.html#map">アクセス</a> ] </p>
+        <p class="contact">Tel: 03-3455-0221</p>
+        <p class="hours"> 営業時間：<br />
+          平日 8時～18時<br />
+          日曜祝日 </p>
+      </div>
+      
+      <!-- Right Section -->
+      <div class="footer-right"> 
+        <!-- Information -->
+        <div class="footer-section">
+          <h2>/ Information</h2>
+          <ul>
+            <li><a href="../news/index.html" class="site-map">- News/お知らせ</a></li>
+            <li><a href="../houseList/index.html" class="site-map">- 施工事例</a></li>
+            <li><a href="../question/index.html" class="site-map">- よくある質問</a></li>
+          </ul>
+        </div>
+        <!-- Service -->
+        <div class="footer-section">
+          <h2>/ Service</h2>
+          <ul>
+            <li><a href="../NewHouse/process.html" class="site-map">- 家の流れ</a></li>
+            <li><a href="../reform/index.html" class="site-map">- リフォーム</a></li>
+            <li><a href="../NewHouse/index.html" class="site-map">- 新築について</a></li>
+          </ul>
+        </div>
+        <!-- Addition -->
+        <div class="footer-section footer-grid-down">
+          <h2>/ Addition</h2>
+          <ul>
+            <li><a href="../site_summary/index.html" class="site-map">- 会社概要</a></li>
+            <li><a href="../site_summary/index.html#map" class="site-map">- アクセス</a></li>
+            <li><a href="../contact/index.html" class="site-map">- お問い合わせ</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>All rights reserve</p>
+    </div>
+  </footer>
+</div>
+<button id="top-button">▲</button>
+<script>
+    // Function to swap the big image
+    function swapImage(imageUrl) {
+        const bigImage = document.getElementById('bigImage');
+        bigImage.src = imageUrl;
+
+        // Update the modal image as well
+        const modalImage = document.querySelector('#imageModal img');
+        modalImage.src = imageUrl;
+    }
+
+    // Function to open the modal
+    function openModal() {
+        const modal = document.getElementById('imageModal');
+        modal.classList.add('active');
+    }
+
+    // Close modal when clicking outside the image
+    document.getElementById('imageModal').addEventListener('click', function () {
+        this.classList.remove('active');
+    });
+</script>
+</body>
+</html>

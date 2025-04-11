@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta
+      name="viewport"
+      content="width=device-width,initial-scale=1"
+      id="uaId"
+    />
+<meta charset="utf-8" />
+<meta name="keywords" content="YomiArc" />
+<meta
+      name="description"
+      content="このページは読売理工医療福祉専門学校WEB制作実習で使用するサンプルサイトのトップページです。"
+    />
+<title>YomiArc</title>
+<link href="../style/style.css" rel="stylesheet" type="text/css" />
+
+<!-- link for jquery --> 
+
+<!--slick-->
+<link
+      href="../lightbox/css/lightbox.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+<link href="../slick/slick.css" rel="stylesheet" type="text/css" />
+<link href="../slick/slick-theme.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery-3.7.1.js"></script> 
+<script type="text/javascript" src="../lightbox/js/lightbox.js"></script> 
+<script type="text/javascript" src="../slick/slick.min.js"></script> 
+<script type="text/javascript" src="../js/scriptjs.js"></script> 
+<!--slick-->
+</head>
+
+<body>
+<div> 
+  <!-- header -->
+  <header>
+    <div id="mainImg">
+      <h1><a href="../index.html">読売工務店株式会社</a></h1>
+      
+      <!-- header navi -->
+      <input type="checkbox" id="menuCheck" />
+      <label for="menuCheck" class="spMenuBtn scrolled"
+            ><span></span
+          ></label>
+      <div id="hdrMenuContent">
+        <nav>
+          <ul id="hdrMainNav">
+            <li><a href="../site_summary/index.html">会社概要</a></li>
+            <li><a href="../NewHouse/index.html">新築について</a></li>
+            <li><a href="../reform/index.html"> リフォームについて</a></li>
+            <li><a href="../houseList/index.html">施工事例</a></li>
+            <li><a href="../contact/index.html">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </div>
+      
+      <!-- Hero Section --> 
+		     <!-- Hero Section -->
+      <section id="hero">
+        <div class="hero-text"></div>
+        <div class="contain-overlay-title">
+          <div class="title-overlay process">
+            <div class="title-overlay-border">
+              <h2 class="process-h2">お問い合わせ</h2>
+            </div>
+            <div class="title-overlay-bottom-border">
+              <h3 class="process">Contact</h3>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-section1">
+          <div class="scroll-text-container"> <span class="text">Scroll</span> </div>
+          <div class="arrow-container"><span class="arrow">↓</span></div>
+        </div>
+      </section>
+    </div>
+  </header>
+</div>
+      
+
+	
+
+<!---------------------------newHouse-------------------------------> 
+
+
+<!---------------------------Contact------------------------------->
+	<section class="contact-wrap">
+		
+		<div class="w-container">
+
+	<h2 class="carousel-title">お問い合わせ</h2>
+		
+		</div>
+		
+		<div class="contact-info">
+    <p>下記の入力フォームへ必要事項をご記入の上、「送信する」ボタンを押して送信してください。</p>
+    <p>送信完了後にこちらから自動返信メールをお送り致しますので、24時間待ってもメールが届かない場合は、<br><span class="important">ご入力いただいたメールアドレスが間違っていた可能性があります</span>。</p>
+    <p>その場合はお手数ですが、再度このページより送信ください。</p>
+</div>
+		
+<div class="contact-padding">
+  
+  <div class="contact-outer-padding">
+    <section class="contact">
+      <div class="white-padding">
+        <div>
+          <form id="form1" name="form1" method="post">
+            <table>
+              <tr>
+                <th><label for="textfield">お名前<span class="formMust">※</span></label></th>
+                <td><input type="text" name="textfield" id="textfield"></td>
+              </tr>
+              <tr>
+                <th><label for="textfield">フリガナ<span class="formMust">※</span></label></th>
+                <td><input type="text" name="textfield" id="textfield-1"></td>
+              </tr>
+              <tr>
+                <th><label for="textfield">住所</label></th>
+                <td><input type="text" name="textfield" id="text"></td>
+              </tr>
+              <tr>
+                <th> <label for="tel"> 電話番号</label>
+                </th>
+                <td><input type="tel" name = "tel" id="tel"></td>
+              </tr>
+              <tr>
+                <th> <label for="email"> メールアドレス<span class="formMust">※</span></label>
+                </th>
+                <td><input type="email" name="email" id="email"></td>
+              </tr>
+				<tr>
+                <th><label for="email"> メールアドレス確認入力<span class="formMust">※</span></label>
+                </th>
+                <td><input type="email" name="email" id="email-re"></td>
+              </tr>
+				
+              <tr>
+                <th><label for="textarea">お問い合わせ内容<span class="formMust">※</span></label></th>
+                <td><textarea name="textarea" id="textarea"></textarea></td>
+              </tr>
+            </table>
+            <p class="button">
+              <input id="submit" type="submit" >
+              <input id="reset" type="reset" >
+              <br>
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+</section>
+<!---------------------------footer------------------------------->
+<div class="w-container">
+      <footer>
+        <div class="footer-container">
+          <!-- Left Section -->
+          <div class="footer-left">
+            <h1 class="company-name">読売工務店株式会社</h1>
+            <p class="address">
+              〒108-0014 東京都港区芝5-26-16 [
+              <a href="../site_summary/index.html#map">アクセス</a>
+              ]
+            </p>
+            <p class="contact">Tel: 03-3455-0221</p>
+            <p class="hours">
+              営業時間：<br />
+              平日 8時～18時<br />
+              日曜祝日
+            </p>
+          </div>
+
+          <!-- Right Section -->
+          <div class="footer-right">
+            <!-- Information -->
+            <div class="footer-section">
+              <h2>/ Information</h2>
+              <ul>
+                <li><a href="../news/index.html" class="site-map">- News/お知らせ</a></li>
+                <li><a href="../houseList/index.html" class="site-map">- 施工事例</a></li>
+				  <li><a href="../question/index.html" class="site-map">- よくある質問</a></li>
+              </ul>
+            </div>
+            <!-- Service -->
+            <div class="footer-section">
+              <h2>/ Service</h2>
+              <ul>
+                <li><a href="../NewHouse/process.html" class="site-map">- 家の流れ</a></li>
+                <li><a href="../reform/index.html" class="site-map">- リフォーム</a></li>
+                <li><a href="../NewHouse/index.html" class="site-map">- 新築について</a></li>
+              </ul>
+            </div>
+            <!-- Addition -->
+            <div class="footer-section footer-grid-down">
+              <h2>/ Addition</h2>
+              <ul>
+                <li><a href="../site_summary/index.html" class="site-map">- 会社概要</a></li>
+                <li><a href="../site_summary/index.html#map" class="site-map">- アクセス</a></li>
+                <li><a href="../contact/index.html" class="site-map">- お問い合わせ</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>All rights reserve</p>
+        </div>
+      </footer>
+    </div>
+<button id="top-button">▲</button>
+</body>
+</html>
